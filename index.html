@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG SYSTEM - Venda de Source e Templates</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO --->
+    <header>
+        <div class="container header-content">
+            <div class="logo">GG <span>SYSTEM</span></div>
+            <ul class="nav-links">
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Venda e Customização de Source de Sites</h1>
+        <p>Oferecemos templates prontos para sites, lojas, propagandas e mais. Modificamos conforme sua necessidade e entregamos a source pronta para você usar.</p>
+        <a href="https://wa.me/5544991610796" target="_blank" class="btn">Solicitar Agora</a>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section light" id="servicos">
+        <h2>Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-code" style="font-size:50px; color:#0078ff; margin-bottom:15px;"></i>
+                <h3>Venda de Source</h3>
+                <p>Templates prontos para sites de vendas, promoções, blogs e mais.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-edit" style="font-size:50px; color:#0078ff; margin-bottom:15px;"></i>
+                <h3>Customização</h3>
+                <p>Adaptamos os templates do jeito que você quiser, cores, textos e imagens.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-headset" style="font-size:50px; color:#0078ff; margin-bottom:15px;"></i>
+                <h3>Suporte Técnico</h3>
+                <p>Ajudamos na instalação e ajustes finais para você colocar seu site no ar sem problemas.</p>
+            </div>
+            <div class="card portfolio-card">
+                <i class="fas fa-briefcase" style="font-size:50px; color:#0078ff; margin-bottom:15px;"></i>
+                <h3>Portfólio</h3>
+                <p>Confira alguns dos templates e sites que já criamos.</p>
+                <a href="portfolio.html" target="_blank" class="btn">Ver Portfólio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+        <h2>Contato</h2>
+        <div class="contato-info">
+            <p>📞 WhatsApp: <a href="https://wa.me/5544991610796" target="_blank">+55 44 99161-0796</a></p>
+            <p>💬 Discord: <a href="https://discord.com/users/theglzzpower" target="_blank">theglzzpower</a></p>
+            <p>📍 Localização: Online / Atendimento Remoto</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <h3 style="color:white; letter-spacing:1px;">GG <span style="color:#0078ff;">SYSTEM</span></h3>
+            <p>&copy; 2025 GG SYSTEM - Todos os direitos reservados.</p>
+            <div class="social">
+                <a href="https://wa.me/5544991610796" target="_blank">📱 WhatsApp</a>
+                <a href="https://discord.com/users/theglzzpower" target="_blank">💬 Discord</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão de Suporte Flutuante -->
+    <div class="support-float">
+        <div class="support-options">
+            <a href="https://wa.me/5544991610796" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://discord.gg/SEULINK" target="_blank" class="discord">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+        <button id="support-btn">
+            <i class="fas fa-headset"></i>
+        </button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const supportBtn = document.getElementById("support-btn");
+            const options = document.querySelector(".support-options");
+
+            supportBtn.addEventListener("click", function() {
+                if (options.style.display === "flex") {
+                    options.style.display = "none";
+                } else {
+                    options.style.display = "flex";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
