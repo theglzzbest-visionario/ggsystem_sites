@@ -1,4 +1,4 @@
-# 🌐 GGSYSTEM Sites
+# 🌐 GG SYSTEM 
 
 Este projeto é o site oficial do **GG System**, desenvolvido em HTML, CSS e JavaScript.
 O objetivo é apresentar os serviços, portfólio e informações institucionais da empresa de forma moderna, responsiva e otimizada.
@@ -11,13 +11,13 @@ O objetivo é apresentar os serviços, portfólio e informações institucionais
 * **CSS** – Estilos e layout responsivo
 * **JavaScript (opcional)** – Interatividade e animações
 * **Git & GitHub** – Controle de versão e hospedagem do código
-* **Netlify** – Deploy e hospedagem do site
+* **Vercel.app** – Deploy e hospedagem do site
 
 ---
 
 ## 🌎 Acesso Online
 
-O site está hospedado via **Netlify** e pode ser acessado em:
+O site está hospedado via **Vercel** e pode ser acessado em:
 🔗 https://ggsystemsites.netlify.app
 
 ---
