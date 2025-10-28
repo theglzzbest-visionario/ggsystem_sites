@@ -18,7 +18,7 @@ O objetivo é apresentar os serviços, portfólio e informações institucionais
 ## 🌎 Acesso Online
 
 O site está hospedado via **Vercel** e pode ser acessado em:
-🔗 https://ggsystemsites.netlify.app
+🔗 https://ggsystemm.vercel.app
 
 ---
 
