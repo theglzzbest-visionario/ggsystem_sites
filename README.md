@@ -32,7 +32,7 @@ O objetivo é apresentar os serviços, portfólio e informações institucionais
 ## 🌎 Acesso Online
 
 O site está hospedado via **Netlify** e pode ser acessado em:
-🔗 [https://ggsystemsites.netlify.app]([https://ggsystemsites.netlify.app]) *(substitua pelo link real quando o deploy estiver ativo)*
+🔗 https://ggsystemsites.netlify.app
 
 ---
 
